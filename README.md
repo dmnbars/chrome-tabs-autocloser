@@ -1,12 +1,11 @@
 # Tabs Autocloser Extension
 
 ## Description
-Tabs Autocloser is a Chrome extension that automatically closes tabs when they lose focus, specifically designed for the Slack website. It helps declutter your browser by closing Slack tabs that are no longer active, improving your browsing experience.
+This Chrome extension automatically closes tabs after they lose focus, specifically targeting popular applications. It aims to improve productivity by automatically removing unnecessary tabs once you switch to another window or application.
 
-## Features
-- Automatically closes Slack tabs when they lose focus.
-- Helps declutter your browser and improve productivity.
-- Lightweight and easy to use.
+## Supported Applications
+- Slack
+- Zoom
 
 ## Installation
 1. Download the extension files from the repository.
@@ -18,9 +17,6 @@ Tabs Autocloser is a Chrome extension that automatically closes tabs when they l
 ## Permissions
 Tabs Autocloser requires the following permissions:
 - `tabs`: Allows the extension to access and manipulate browser tabs.
-
-## Usage
-Once installed, the Tabs Autocloser extension will automatically close Slack tabs when they lose focus. This helps keep your browser organized and prevents clutter from accumulating.
 
 ## Configuration
 There is no configuration required for the Tabs Autocloser extension. It is specifically designed to work with Slack and will only close tabs that match the Slack URL pattern.

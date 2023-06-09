@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tabs autocloser extension",
-  "description": "Closes tabs after lost focus (slack)",
+  "description": "Closes tabs after lost focus",
   "version": "0.0.1",
   "permissions": ["tabs"],
   "background": {
