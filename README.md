@@ -18,6 +18,7 @@ This Chrome extension automatically closes tabs after they lose focus, specifica
 ## Permissions
 Tabs Autocloser requires the following permissions:
 - `tabs`: Allows the extension to access and manipulate browser tabs.
+- `storage`: Allows the extension to store options.
 
 ## Configuration
 There is no configuration required for the Tabs Autocloser extension. It is specifically designed to work with Slack and will only close tabs that match the Slack URL pattern.

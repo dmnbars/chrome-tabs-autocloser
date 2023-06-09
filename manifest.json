@@ -3,8 +3,12 @@
   "name": "Tabs autocloser extension",
   "description": "Closes tabs after lost focus",
   "version": "0.0.1",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "backgroundScript.js"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
   }
 }
