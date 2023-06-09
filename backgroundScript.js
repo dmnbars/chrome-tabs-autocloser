@@ -1,8 +1,12 @@
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if (changeInfo.status === 'complete' && checkUrl(tab.url)) {
         setTimeout(function() {
-            chrome.tabs.remove(tab.id);
-        }, 100);
+            chrome.windows.get(tab.windowId, null, (window) => {
+                if (!window.focused) {
+                    chrome.tabs.remove(tab.id)
+                }
+            })
+        }, 500);
     }
 });
 
