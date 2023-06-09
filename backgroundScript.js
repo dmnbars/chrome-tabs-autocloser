@@ -6,7 +6,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
                     chrome.tabs.remove(tab.id)
                 }
             })
-        }, 500);
+        }, 250);
     }
 });
 
