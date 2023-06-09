@@ -27,9 +27,3 @@ There is no configuration required for the Tabs Autocloser extension. It is spec
 
 ## Contribution
 Contributions to the Tabs Autocloser extension are welcome. If you have any suggestions, bug reports, or feature requests, please open an issue on the project's GitHub repository.
-
-## License
-This extension is licensed under the [MIT License](LICENSE).
-
----
-Please note that this readme assumes familiarity with developing Chrome extensions. If you are new to Chrome extension development, it is recommended to refer to the Chrome Extension documentation for detailed instructions and additional information.
