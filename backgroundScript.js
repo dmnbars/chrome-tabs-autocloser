@@ -11,7 +11,16 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 });
 
 function checkUrl(url) {
-    const regex = /^https:\/\/([\w-]+\.)*slack\.com\/archives\/.*$/;
+    const regexes = [
+        new RegExp('^https:\\/\\/([\\w-]+\\.)*slack\\.com\\/archives\\/.*$'),
+        new RegExp('^https:\\/\\/(\\w+\\d+\\w+\\.)?zoom\\.us\\/j\\/\\d+(?:\\?[^#]+)?#success$'),
+    ];
 
-    return regex.test(url);
+    for (const regex of regexes) {
+        if (regex.test(url)) {
+            return true
+        }
+    }
+
+    return false
 }
