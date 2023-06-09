@@ -6,6 +6,7 @@ This Chrome extension automatically closes tabs after they lose focus, specifica
 ## Supported Applications
 - Slack
 - Zoom
+- Miro
 
 ## Installation
 1. Download the extension files from the repository.

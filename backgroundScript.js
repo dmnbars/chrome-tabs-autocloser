@@ -14,6 +14,7 @@ function checkUrl(url) {
     const regexes = [
         new RegExp('^https:\\/\\/([\\w-]+\\.)*slack\\.com\\/archives\\/.*$'),
         new RegExp('^https:\\/\\/(\\w+\\d+\\w+\\.)?zoom\\.us\\/j\\/\\d+(?:\\?[^#]+)?#success$'),
+        new RegExp('^https:\/\/miro.com/app/board\\/.*$'),
     ];
 
     for (const regex of regexes) {
